@@ -1,0 +1,27 @@
+@media (max-width: 767px) {
+    /* right */
+    .work-exp, .education, .contact {
+        display: block;
+    }
+    .container {
+        width: 95%;
+    }
+    .work-exp h2 {
+        margin-bottom: 20px;
+    }
+    .work-exp h3 {
+        margin-bottom: 20px;
+    }
+    .education h2 {
+        margin-bottom: 20px;
+    }
+    .education h3 {
+        margin-bottom: 20px;
+    }
+    .contact h2 {
+        margin-bottom: 20px;
+    }
+    .contact h3 {
+        margin-bottom: 20px;
+    }
+}
