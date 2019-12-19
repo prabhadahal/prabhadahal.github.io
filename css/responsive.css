@@ -3,9 +3,6 @@
     .work-exp, .education, .contact {
         display: block;
     }
-    .container {
-        width: 95%;
-    }
     .work-exp h2 {
         margin-bottom: 20px;
     }
