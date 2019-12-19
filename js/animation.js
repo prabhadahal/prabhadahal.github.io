@@ -1,3 +1,3 @@
 $(window).on('load', () => {
-    $('.spinner-wrapper').fadeOut();
+    $('.spinner-wrapper').fadeOut('slow');
 })
