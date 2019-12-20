@@ -11,7 +11,6 @@ $(window).on("scroll", function () {
         $('.outer-bar').addClass('animate-progress');
         $(window).off("scroll"); // last line
     }
-    console.log(pageYOffset);
 });
 /*menu*/
 $('.menu-btn').on('click', () => {
