@@ -250,3 +250,61 @@ li {
 .work-exp, .education, .contact, .skills, form {
     padding: 30px;
 }
+/*menu*/
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    transform: scale(0);
+    align-items: flex-start;
+    transition: .2s;
+    align-items: center;
+}
+
+.toggle-scale {
+    transform: scale(1);
+}
+
+.menu-items a {
+    text-decoration: none;
+}
+
+.menu {
+    background: white;
+    display: flex;
+    width: 96%;
+    margin: auto;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    height: 30px;
+}
+
+/*icons*/
+
+.menu-items .fa {
+    color: black;
+    transition: .2s ease-in-out;
+}
+
+.menu-items .fa:hover {
+    color: coral;
+}
+
+/*button menu*/
+
+.menu-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 5px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    border-color: coral;
+    color: coral;
+}
