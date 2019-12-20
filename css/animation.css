@@ -41,3 +41,60 @@
         transform: rotate(360deg);
     }
 }
+/*progress bar animation*/
+
+.inner-bar {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.animate-progress .loader1 {
+    animation-name: loader1;
+}
+
+.animate-progress .loader2 {
+    animation-name: loader2;
+}
+
+.animate-progress .loader3 {
+    animation-name: loader3;
+}
+
+.animate-progress .loader4 {
+    animation-name: loader4;
+}
+
+.animate-progress .loader5 {
+    animation-name: loader5;
+}
+
+@keyframes loader1 {
+    to {
+        width: 73%;
+    }
+}
+
+@keyframes loader2 {
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes loader3 {
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes loader4 {
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes loader5 {
+    to {
+        width: 55%;
+    }
+}
